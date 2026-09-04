@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Em Busca da Cidade Perdida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você encontrou um mapa antigo sobre uma cidade perdida no Amazonas. Por onde quer começar?</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>No Rio de Janeiro, você subiu o Pico da Tijuca e encontrou a pista inicial!</p>
+            <button class="btn-proximo" data-proximo="3">Ir para a Cidade Perdida</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você investigou as igrejas de Olinda e achou o mapa secreto!</p>
+            <button class="btn-proximo" data-proximo="3">Ir para a Cidade Perdida</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Parabéns! Você seguiu as pistas e descobriu a lendária Cidade Perdida!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
