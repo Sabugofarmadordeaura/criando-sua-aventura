@@ -1,0 +1,27 @@
+body {
+    background-color: #1b3b5f;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+main {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display: block;
+}
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
